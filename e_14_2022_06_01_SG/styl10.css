@@ -4,9 +4,44 @@ body {
 }
 
 .naglowek {
-	height: 100px;
+	height: 170px;
 	background-color: rgb(146, 184, 112);
 	display: flex;
 	justify-content: center;
+	align-items: center;
+	flex-direction: row;
 	color: white;
+	
+}
+
+.strefazamowien, .stopka {
+	height: 80px;
+	background-color: rgb(100, 61, 49);
+	display: flex;
+	padding: 5px 5px 5px 5px;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	color: white;
+	font-size: 32px;
+	letter-spacing:20px;
+}
+
+.stopka{
+	font-size: small;
+	letter-spacing: normal;
+}
+
+.boxleft, .boxright{
+	height: 450px;
+	background-color: rgb(146, 184, 112);
+	width: 50%;
+}
+
+.boxleft{
+	float: left;
+}
+
+.boxright{
+	float: right;
 }

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Fabryka cukierkow</title>
+		<link rel="stylesheet" href="styl10.css" />
+	</head>
+	<body>
+		<div class="naglowek">
+            <a href='zamowienie.html'><img src="cukierki1.jpg" style="margin-right: 50px;"></a>
+            <a href='index.html'><img src="cukierki2.png" alt='Nasze logo' style="margin-left: 50px;"></a>
+        </div>
+		<div class="strefazamowien">Strefa zamówień</div>
+		<div class="contentbox">
+			<div class="boxleft">
+				Numer kształtu:
+				<br>
+				<input type="number" id="nrksztaltu">
+				<br>
+				skomponuj swój kolor, podaj RGB:
+				<br>
+				R:<input type="number" id="r">G:<input type="number" id="g">B:<input type="number" id="b">
+				<br>
+				<button onclick="skrypt()">Zamówienie</button>
+				<br>
+				<p id="tresc">Twoje zamówienie</p>
+				<button id="przycisk">Kolor</button>
+			</div>
+			<div class="boxright"></div>
+		</div>
+		<div class="stopka">
+			Autor strony: 11220
+		</div>
+
+		<script>
+			function skrypt(){
+				let nrksztaltu=parseInt(document.getElementById("nrksztaltu").value);
+				let r=parseInt(document.getElementById("r").value);
+				let g=parseInt(document.getElementById("g").value);
+				let b=parseInt(document.getElementById("b").value);
+
+				switch(nrksztaltu){
+					case 1:
+						document.getElementById('tresc').innerHTML="Twoje zamowienie to cukierek cytryna";
+					break;
+					case 2:
+						document.getElementById('tresc').innerHTML="Twoje zamowienie to cukierek liść";
+					break;
+					case 3:
+						document.getElementById('tresc').innerHTML="Twoje zamowienie to cukierek banan";
+					break;
+					default:
+						document.getElementById('tresc').innerHTML="Twoje zamowienie to cukierek inny";
+					break;
+				}
+
+				document.getElementById('przycisk').style.background-color='gb('+r+';'+g+';'+b+');';
+			}
+		</script>
+	</body>
+</html>
