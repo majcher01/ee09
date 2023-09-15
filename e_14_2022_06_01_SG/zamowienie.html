@@ -55,7 +55,10 @@
 					break;
 				}
 
-				document.getElementById('przycisk').style.background-color='gb('+r+';'+g+';'+b+');';
+				//document.getElementById('przycisk').style.backgroundColor='rgb('+r+','+g+','+b+');';
+				let c='rgb('+r+', '+g+', '+b+')';
+				console.log(c);
+				document.getElementById('przycisk').style.backgroundColor=c;
 			}
 		</script>
 	</body>
