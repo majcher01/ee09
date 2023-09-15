@@ -1,0 +1,12 @@
+body{
+    margin:0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.naglowek{
+    height: 100px;
+    background-color: rgb(146, 184, 112);
+    display: flex;
+    justify-content: center;
+    color: white;
+}
