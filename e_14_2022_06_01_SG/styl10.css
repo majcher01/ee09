@@ -7,14 +7,14 @@ body {
 	height: 170px;
 	background-color: rgb(146, 184, 112);
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	align-items: center;
 	flex-direction: row;
 	color: white;
-	
 }
 
-.strefazamowien, .stopka {
+.strefazamowien,
+.stopka {
 	height: 80px;
 	background-color: rgb(100, 61, 49);
 	display: flex;
@@ -24,28 +24,50 @@ body {
 	flex-direction: row;
 	color: white;
 	font-size: 32px;
-	letter-spacing:20px;
+	letter-spacing: 20px;
 }
 
-.stopka{
+.stopka {
 	font-size: small;
 	letter-spacing: normal;
 }
 
-.boxleft, .boxright{
+.boxleft,
+.boxright {
 	height: 450px;
 	background-color: rgb(146, 184, 112);
 	width: 50%;
 }
 
-.boxleft{
+.boxleft {
 	float: left;
+	width: 50%;
+	height: 450px;
 }
 
-.boxright{
+.boxright {
 	float: right;
 }
 
-input{
-	width:50px;
+input {
+	width: 50px;
+}
+.strefazamowien {
+	height: 80px;
+	background-color: rgb(100, 61, 49);
+	display: flex;
+	padding: 5px 5px 5px 5px;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	color: white;
+	font-size: 250%;
+	letter-spacing: 20px;
+}
+th,
+td {
+	border: 2px dashed green;
+	padding: 20px 20px 20px 20px;
+	margin: 30px 30px 30px 30px;
+	text-align: center;
 }
