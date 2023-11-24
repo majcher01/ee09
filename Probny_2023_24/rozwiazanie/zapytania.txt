@@ -1,0 +1,7 @@
+SELECT * FROM pracownicy;
+
+SELECT * FROM pracownicy WHERE nazwisko='Król';
+
+
+
+INSERT INTO `pracownicy`(`id`, `nazwisko`, `imie`, `PESEL`) VALUES ('NULL','Rak','Monika','00101843690');
