@@ -1,0 +1,55 @@
+body{
+    margin: 0px 0px 0px 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 100px;
+}
+
+.header1{
+    width:40%;
+    height: 100px;
+    background-color: #3CB371;
+    color: white;
+}
+.header2{
+    width:40%;
+    height: 100px;
+    background-color: #3CB371;
+    color: white;
+}
+.header3{
+    width:20%;
+    height: 100px;
+    background-color: #3CB371;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dzien{
+    background-color: #FFDAB9;
+    width:170px;
+    height: 90px;
+    margin: 5px 5px 5px 5px;
+    border: 1px solid #3CB371;
+}
+
+.form1{
+    padding: 30px 30px 30px 30px;
+}
+
+h6{
+    text-align: right;
+}
+
+footer{
+    background-color: #3CB371;
+    color: white;
+}

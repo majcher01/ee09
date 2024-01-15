@@ -1,0 +1,51 @@
+body{
+    margin: 0px 0px 0px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.gora{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.logo{
+    background-color: #FF9F79;
+    height: 270px;
+    width: 30%;
+}
+
+.lf{
+    list-style-type: none;
+}
+
+.lista, .formularz{
+    background-color: #FF9F79;
+    color: green;
+    height: 270px;
+    width: 35%;
+}
+
+.main{
+    background-color: #80CDAC;
+    height: 400px;
+    padding: 30px 30px 30px 30px;
+    text-align: center;
+}
+
+footer{
+    background-color: #188256;
+    height: 150px;
+    padding: 10px 10px 10px 10px;
+}
+
+a{
+    background-color: green;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    border: 2px solid orange;
+}
+
+a:visited{
+    background-color: violet;
+}
