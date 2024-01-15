@@ -1,0 +1,57 @@
+body{
+    margin: 0px 0px 0px 0px;
+    font-family: Garamond;
+}
+
+header{
+    background-color: saddlebrown;
+    color: white;
+    text-align: center;
+    height: 50px;
+}
+
+h1{
+    margin: 0px 0px 0px 0px;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.lewy{
+    background-color: tan;
+    height: 500px;
+    width: 40%;
+}
+
+.prawymain{
+    background-color: tan;
+    width: 60%;
+    height: 500px;
+}
+
+.prawygora, .prawydol{
+    height: 250px;
+}
+
+footer{
+    background-color: saddlebrown;
+    color: white;
+}
+
+form{
+    background-color: saddlebrown;
+    color: white;
+    padding: 10px 30px 10px 30px;
+    width:300px;
+}
+
+input{
+    margin: 5px 5px 5px 5px;
+}
+
+ p::before {
+  content: "STATUS: ";
+}
