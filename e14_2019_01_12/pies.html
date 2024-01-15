@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nasze zdjęcia</title>
+    <link rel="stylesheet" type="text/css" href="styl6.css">
+</head>
+<body>
+   <header>
+    <h2>Nasze psy</h2>
+   </header>
+   <div class="main">
+    <div class="lewy">
+<h1>Wybierz</h1>
+<ul>
+    <li><a href='pies.html'>Psy</a></li>
+    <li><a href='kot.html'>Koty</a></li>
+    <li>Konie</li>
+    <li>Rybki</li>
+    <li>Inne zdjęcia</li>
+</ul>
+<h5><a href="index.html">Do strony głównej</a></h5>
+    </div>
+    <div class="prawymain">
+        <div class="prawygora">
+            <h2>Kliknij na zdjęcie</h2>
+            <img src="pies1.jpg" alt="psy" class="obrazprawygora" onmouseover="overpies1()" onmouseleave="outpies1()" onclick="clickedpies1()" id="pies1">
+            <img src="pies2.jpg" alt="psy" class="obrazprawygora" onmouseover="overpies2()" onmouseleave="outpies2()" onclick="clickedpies2()" id="pies2">
+            <img src="pies3.jpg" alt="psy" class="obrazprawygora" onmouseover="overpies3()" onmouseleave="outpies3()" onclick="clickedpies3()" id="pies3">
+        </div>
+        <div class="prawydol">
+           <p><img src="pies2.jpg" alt="Wybrany pies" class="obrazprawydol" id="piesduzy"></p>
+        </div>
+    </div>
+   </div> 
+
+   <footer>
+Galerie zdjęć opracował: PESEL
+   </footer>
+
+
+   <script>
+
+    function overpies1(){
+        document.getElementById("pies1").src="pies1-odbicie.jpg";
+    }
+    function outpies1(){
+        document.getElementById("pies1").src="pies1.jpg";
+    }
+
+    function clickedpies1(){
+        document.getElementById("pies1").src="pies1.jpg";
+        document.getElementById("piesduzy").src="pies1.jpg";
+    }
+
+
+    function overpies2(){
+        document.getElementById("pies2").src="pies2-odbicie.jpg";
+    }
+    function outpies2(){
+        document.getElementById("pies2").src="pies2.jpg";
+    }
+
+    function clickedpies2(){
+        document.getElementById("pies2").src="pies2.jpg";
+        document.getElementById("piesduzy").src="pies2.jpg";
+    }
+
+
+    function overpies3(){
+        document.getElementById("pies3").src="pies3-odbicie.jpg";
+    }
+    function outpies3(){
+        document.getElementById("pies3").src="pies3.jpg";
+    }
+
+    function clickedpies3(){
+        document.getElementById("pies3").src="pies3.jpg";
+        document.getElementById("piesduzy").src="pies3.jpg";
+    }
+
+   </script>
+</body>
+</html>

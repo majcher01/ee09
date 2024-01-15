@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nasze zdjęcia</title>
+    <link rel="stylesheet" type="text/css" href="styl6.css">
+</head>
+<body>
+   <header>
+<h2>Nasze koty</h2>
+   </header>
+   <div class="main">
+    <div class="lewy">
+<h1>Wybierz</h1>
+<ul>
+    <li><a href='pies.html'>Psy</a></li>
+    <li><a href='kot.html'>Koty</a></li>
+    <li>Konie</li>
+    <li>Rybki</li>
+    <li>Inne zdjęcia</li>
+</ul>
+<h5><a href="index.html">Do strony głównej</a></h5>
+    </div>
+    <div class="prawymain">
+        <div class="prawygora">
+            <h2>Kliknij na zdjęcie</h2>
+            <img src="kot1.jpg" alt="koty" class="obrazprawygora" onmouseover="overkot1()" onmouseleave="outkot1()" id="kot1">
+        </div>
+        <div class="prawydol">
+            <p><img src="kot1.jpg" alt="Wybrany kot" class="obrazprawydol"></p>
+        </div>
+    </div>
+   </div> 
+
+   <footer>
+Galerie zdjęć opracował: PESEL
+   </footer>
+
+   <script>
+    function overkot1(){
+        document.getElementById("kot1").src="kot1-odbicie.jpg";
+    }
+    function outkot1(){
+        document.getElementById("kot1").src="kot1.jpg";
+    }
+   </script>
+</body>
+</html>
